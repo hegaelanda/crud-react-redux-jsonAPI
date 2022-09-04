@@ -1,0 +1,52 @@
+{
+  "hadirin": [
+    {
+      "id": 1,
+      "nama": "Kim Dahyun",
+      "alamat": "Ciganitri",
+      "ucapan": "dangsin-ui gyeolhon-eul jeulgisibsio"
+    },
+    {
+      "id": 2,
+      "nama": "Killua Zoldyck",
+      "alamat": "Bandung",
+      "ucapan": "Akhirnya nikah juga ya <3"
+    },
+    {
+      "id": 3,
+      "nama": "Hega Cendikia Elanda",
+      "alamat": "Bandung",
+      "ucapan": "Selamat"
+    },
+    {
+      "id": 4,
+      "nama": "Preketek",
+      "alamat": "Uranus",
+      "ucapan": "Semoga Samawa"
+    },
+    {
+      "id": 5,
+      "nama": "Jajang",
+      "alamat": "Athena",
+      "ucapan": "Mantap"
+    },
+    {
+      "id": 6,
+      "nama": "Joshua",
+      "alamat": "Bandung",
+      "ucapan": "Selamat"
+    },
+    {
+      "id": 7,
+      "nama": "Greg Nwokolo",
+      "alamat": "Bandung",
+      "ucapan": "Selamat"
+    },
+    {
+      "nama": "Diego",
+      "alamat": "Desa Si Dora",
+      "ucapan": "Mantap Mamang!",
+      "id": 8
+    }
+  ]
+}
