@@ -15,12 +15,10 @@ function FormAddHadirin() {
   const onUcapanChanged = (e) => setUcapan(e.target.value);
 
   const onSavePostClicked = () => {
-    try {
-      dispatch(addHadirin({ nama, alamat, ucapan }));
-    } catch (err) {
-      console.error("Failed", err);
-    } finally {
+    if (nama && alamat && ucapan) {
+      return dispatch(addHadirin({ nama, alamat, ucapan }));
     }
+    return alert("Belum diisi semua!");
   };
 
   return (

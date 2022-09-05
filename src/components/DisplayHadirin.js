@@ -18,35 +18,40 @@ function DisplayHadirin() {
         <thead>
           <tr>
             <th className="col-1 text-center">ID</th>
-            <th>Nama</th>
-            <th>Alamat</th>
-            <th>Ucapan Untuk Mempelai</th>
+            <th className="col-3">Nama</th>
+            <th className="col-2">Alamat</th>
+            <th className="col-4">Ucapan Untuk Mempelai</th>
             <th className="col-2 text-center">Aksi</th>
           </tr>
         </thead>
-
         {value.map((val) => {
           return (
             <tbody key={val.id}>
               <tr>
-                <td className="text-center" rowSpan="2">
-                  {val.id}
-                </td>
+                <td className="text-center">{val.id}</td>
                 <td>{val.nama}</td>
                 <td>{val.alamat}</td>
                 <td>{val.ucapan}</td>
                 <td className="text-center">
-                  {/* <button type="button" className="btn btn-sm btn-primary">
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-primary"
+                    data-bs-toggle="collapse"
+                    data-bs-target={"#collapse" + val.id}
+                    aria-expanded="false"
+                    aria-controls={"collapse" + val.id}>
                     <i className="bi bi-chevron-down"></i>
-                  </button> */}
+                  </button>
                 </td>
               </tr>
-              <AksiHadirin
-                id={val.id}
-                nama={val.nama}
-                alamat={val.alamat}
-                ucapan={val.ucapan}
-              />
+              <tr className="collapse" id={"collapse" + val.id}>
+                <AksiHadirin
+                  id={val.id}
+                  nama={val.nama}
+                  alamat={val.alamat}
+                  ucapan={val.ucapan}
+                />
+              </tr>
             </tbody>
           );
         })}

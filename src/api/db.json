@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nama": "Kim Dahyun",
-      "alamat": "Ciganitri",
+      "alamat": "Seoul",
       "ucapan": "dangsin-ui gyeolhon-eul jeulgisibsio"
     },
     {
@@ -16,37 +16,7 @@
       "id": 3,
       "nama": "Hega Cendikia Elanda",
       "alamat": "Bandung",
-      "ucapan": "Selamat"
-    },
-    {
-      "id": 4,
-      "nama": "Preketek",
-      "alamat": "Uranus",
-      "ucapan": "Semoga Samawa"
-    },
-    {
-      "id": 5,
-      "nama": "Jajang",
-      "alamat": "Athena",
-      "ucapan": "Mantap"
-    },
-    {
-      "id": 6,
-      "nama": "Joshua",
-      "alamat": "Bandung",
-      "ucapan": "Selamat"
-    },
-    {
-      "id": 7,
-      "nama": "Greg Nwokolo",
-      "alamat": "Bandung",
-      "ucapan": "Selamat"
-    },
-    {
-      "nama": "Diego",
-      "alamat": "Desa Si Dora",
-      "ucapan": "Mantap Mamang!",
-      "id": 8
+      "ucapan": "Masuk pak eko"
     }
   ]
 }

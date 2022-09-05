@@ -27,43 +27,48 @@ function AksiHadirin(props) {
   };
 
   return (
-    <tr>
-      {/* <td></td> */}
-      <td>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Edit Nama..."
-          onChange={onNewNamaChanged}
-        />
-      </td>
-      <td>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Edit Alamat..."
-          onChange={onNewAlamatChanged}
-        />
-      </td>
-      <td>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Edit Ucapan..."
-          onChange={onNewUcapanChanged}
-        />
-      </td>
-      <td className="text-center">
-        <div className="btn-group">
-          <button className="btn btn-warning" onClick={onUpdateClicked}>
-            <i className="bi bi-pencil"></i>
-          </button>
-          <button className="btn btn-danger" onClick={onDeleteClicked}>
-            <i className="bi bi-trash"></i>
-          </button>
+    <td colSpan={5}>
+      <div className="row">
+        <div className="col">
+          <div className="row">
+            <div className="col">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Edit Nama..."
+                onChange={onNewNamaChanged}
+              />
+            </div>
+            <div className="col">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Edit Alamat..."
+                onChange={onNewAlamatChanged}
+              />
+            </div>
+            <div className="col">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Edit Ucapan..."
+                onChange={onNewUcapanChanged}
+              />
+            </div>
+          </div>
         </div>
-      </td>
-    </tr>
+        <div className="col-2 text-center">
+          <div className="btn-group">
+            <button className="btn btn-warning" onClick={onUpdateClicked}>
+              <i className="bi bi-pencil"></i>
+            </button>
+            <button className="btn btn-danger" onClick={onDeleteClicked}>
+              <i className="bi bi-trash"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </td>
   );
 }
 
