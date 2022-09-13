@@ -1,12 +1,6 @@
 {
   "hadirin": [
     {
-      "id": 1,
-      "nama": "Kim Dahyun",
-      "alamat": "Seoul",
-      "ucapan": "dangsin-ui gyeolhon-eul jeulgisibsio"
-    },
-    {
       "id": 2,
       "nama": "Killua Zoldyck",
       "alamat": "Bandung",
@@ -17,6 +11,12 @@
       "nama": "Hega Cendikia Elanda",
       "alamat": "Bandung",
       "ucapan": "Masuk pak eko"
+    },
+    {
+      "nama": "Udin",
+      "alamat": "Bandung",
+      "ucapan": "Selamat",
+      "id": 4
     }
   ]
 }
